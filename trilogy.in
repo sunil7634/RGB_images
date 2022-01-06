@@ -1,0 +1,32 @@
+R
+F814W_cutout.fits[1]
+
+
+G
+F475W_cutout.fits[1]
+
+
+
+B
+average.fits
+
+indir  /Users/sunil/Desktop
+
+outname  eso
+outdir  /Users/sunil/Desktop/
+samplesize 1000
+stampsize  1000
+showstamps  0
+satpercent  0.4
+noiselum    0.4 
+colorsatfac  0.6
+deletetests  0
+sampledx  0
+sampledy  0
+legend 0
+#scaling  vcc_levels.txt 
+
+#scaling can be commented to make default but don't add next to scaling, it creates error
+#----------------------------
+#noiselum if u lower ur image become less visible
+#for eso_stamp_macro combination of 433 was better
